@@ -1,0 +1,57 @@
+UTIL:
+  NO-PERMISSIONS: "<red>You do not have permissions to run this command."
+  PLAYER-NOT-FOUND: "<red>Player not found."
+  CONSOLE-COMMAND: "<red>You must be a player to use this command."
+
+FEED:
+  UPDATED: "<aqua>You have been fed."
+  UPDATED-OTHER: "<aqua>You have fed <blue><player>."
+
+TELEPORT:
+  CORRECT-USAGE: "<red>Usage: /teleport <player>"
+  WORLD-CORRECT-USAGE: "<red>Usage: /world <world>"
+  TELEPORTED: "<aqua>You have been teleported to <blue><player>"
+  TELEPORTED-HERE: "<aqua>You have teleported <blue><player> to your location."
+  TELEPORTED-TO-YOU: "<aqua><player> has teleported you to their location."
+  INVALID-WORLD: "<red>World '<blue><world><red>' not found."
+
+TELEPORTPOSITION:
+  CORRECT-USAGE: "<red>Usage: /teleportposition <x> <y> <z>"
+  TELEPORTED: "<aqua>You have been teleported to <blue>X:<x> Y:<y> Z:<z>"
+  INVALID-COORDINATES: "<red>Invalid coordinates. Please specify valid numbers."
+
+HEAL:
+  UPDATED: "<aqua>You have been healed."
+  UPDATED-OTHER: "<aqua>You have healed <blue><player>."
+
+MORE:
+  CORRECT-USAGE: "<red>Usage: /more <amount>"
+  INVALID-AMOUNT: "<red>Invalid amount. Please specify a valid number."
+  INVALID-ITEM: "<red>You must be holding an item to use this command."
+  UPDATED: "<aqua>The item in your hand has been updated to <reset><amount>"
+
+RENAME:
+  UPDATED: "<aqua>Your item has been renamed to <reset><newname>"
+  FAILED-TO-GET-ITEM-META: "<red>Failed to get item meta."
+  CORRECT-USAGE: "<red>Usage: /rename <newName>"
+  INVALID-ITEM: "<red>You must be holding an item to rename it."
+
+FLY:
+  UPDATED: "<aqua>Fly mode has been <blue><mode>."
+  UPDATED-OTHER: "<aqua>Fly mode for <blue><player> has been <blue><mode>."
+  CORRECT-USAGE: "<red>Usage: /fly [player]"
+
+LORE:
+  CORRECT-USAGE: "<red>Usage: /lore add <text>, /lore remove <line>, or /lore set <line> <text>"
+  INVALID-ITEM: "<red>You must be holding an item to use this command."
+  FAILED-TO-GET-ITEM-META: "<red>Failed to get item meta."
+  ADDED: "<aqua>Lore added: <reset><text>"
+  REMOVED: "<aqua>Lore line <reset><line><aqua> removed."
+  SET: "<aqua>Lore line <reset><line><aqua> set to: <reset><text>"
+  INVALID-LINE: "<red>Invalid line number."
+
+GAMEMODE:
+  INVALID-GAMEMODE: "<red>Invalid gamemode."
+  UPDATED: "<aqua>Your gamemode has been set to <blue><gamemode>"
+  UPDATED-OTHER-SENDER: "<aqua>Gamemode of <blue><players>'s <aqua>has been set to <blue><gamemode>"
+  UPDATED-OTHER-TARGET: "<blue>Your gamemode has been set to <aqua><gamemode>"

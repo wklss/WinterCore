@@ -1,0 +1,63 @@
+name: WinterCore
+main: dev.winter.WinterCore
+version: 1.0.0
+author: wkls
+api-version: 1.20
+description: The best core for paper.
+commands:
+  gamemode:
+    aliases: ["gm"]
+    description: Set your gamemode.
+  rename:
+    description: Rename the item in your hand.
+  more:
+    description: Increase the amount of items in your hand.
+  feed:
+    description: Feed yourself or another player.
+  heal:
+    description: used to heal yourself or others.
+  teleport:
+    aliases: ["tp"]
+    description: Teleport yourself to a player.
+  teleporthere:
+    aliases: ["tphere", "s"]
+    description: Teleport a player to yourself.
+  teleportworld:
+    aliases: ["tpworld", "world"]
+    description: Teleport yourself to a loaded world.
+  teleportposition:
+    aliases: ["tppos"]
+    description: Teleport yourself to coordinates.
+  fly:
+    description: Toggle your fly or the fly of others.
+  lore:
+    description: Use to manage item lore's
+permissions:
+  wintercore.gamemode:
+    description: Allow access to gamemode commands.
+  wintercore.rename:
+    description: Allow access to the /rename command.
+  wintercore.more:
+    description: Allow access to the /more command.
+  wintercore.feed:
+    description: Allow access to the /feed command.
+  wintercore.feed.others:
+    description: Allow access to feed other players.
+  wintercore.heal:
+    description: Allow access to /heal command.
+  wintercore.heal.others:
+    description: Allow access to heal other players.
+  wintercore.teleport:
+    description: Allow access to the /teleport command.
+  wintercore.teleporthere:
+    description: Allow access to the /teleporthere command.
+  wintercore.teleportworld:
+    description: Allow access to the /teleportworld command.
+  wintercore.teleportposition:
+    description: Allow access to the /teleportposition command.
+  wintercore.fly:
+    description: Allow access to the /fly command.
+  wintercore.fly.others:
+    description: Allow access to fly other players.
+  wintercore.lore:
+    description: Allow access to /lore command.
